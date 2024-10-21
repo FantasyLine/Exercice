@@ -1,0 +1,151 @@
+*{
+    font-size: 18px;
+    margin: 0 auto;    
+    font-family: 'Nunito';
+    font-family: 'Nunito';
+}
+main{
+    text-align: center;
+    padding-bottom: 3em;
+}
+.accueil{
+    margin-top: 10px;
+    background-color: white;
+    color:#00748D;
+    padding: 10px;    
+}
+header{
+    font-size: 1.25em;
+    padding: 2em;
+    background-image: url(../images/path.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+header .container{
+    display: flex;
+}
+footer .reseau img, header img{
+    max-width: 200px;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+}
+h1{
+    font-size: 1.875em;
+}
+article h2{
+    font-size: 1.25em;
+}
+article p{
+    font-size: 1em;
+}
+.container{
+    max-width: 1200px;
+}
+nav a,h1,h2{
+    font-family: 'Fjalla One';
+}
+
+header, .reseau{
+    background-color:#00748D;
+}
+main{
+    background-color: #f9f9f9;
+}
+.propriete{
+    background-color:  #444444;
+    padding: 1em 0;
+    text-align: center;
+}
+.reseau{
+    padding: 2em;
+    background-image: url(../images/path.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+footer p, header p, nav a{
+    color: white;
+    
+}
+.orange{
+    color: #CB8606;
+}
+footer span{
+    color: orange;
+}
+footer .reseau{
+    background-color: #00748D;
+}
+footer p{
+    flex-grow: 1;
+}
+footer .container{
+    display: flex;
+}
+.footersvg{
+    width: 100%;
+    background-color: transparent;
+    max-height: 50px;
+    max-width: 30px;
+    padding: 0.5em;
+}
+.footersvg{
+    fill: white;    
+
+}
+.rotation{ 
+    rotate: 45deg;
+}
+@media screen and (max-width:630px) {
+    header .container{
+        flex-direction: column;
+    }
+    header p{
+        display: flex;
+        flex-direction: column;
+        text-align: center ;
+        gap:10px;
+    }
+    nav a{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    nav{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.25em;
+    }
+
+}
+@media screen and (max-width:680px) { 
+    .container{
+        flex-direction: column;
+    }
+    nav{
+        text-align: center;
+        margin-top: 1em;
+    }
+}
+@media screen and (max-width:990px) {  
+    header .container{
+        flex-direction: column;
+        
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+    }
+    nav a{
+        padding: 1em;
+    }
+
+    header p{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        text-align: center;
+    }
+}

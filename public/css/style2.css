@@ -1,0 +1,208 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-rows: 75px repeat(5, 0.3fr);
+    padding: 2em;
+    gap:10px;
+    align-items: stretch;
+    width: 70%;
+}
+.side p{
+    text-align: left;
+    margin: 1em;
+    font-size: 16px;
+}
+.bleu{
+    color: #00748D;
+}
+.side h2{
+    margin: 2em;
+}
+.border {
+    width: 30%;
+    height: 2px;
+    background-color: #ea6351;
+    margin: 0 auto; 
+}
+.container{
+    display: flex;
+    gap: 1em;
+}
+.side{
+    width: 30%;
+    padding: 10px;
+}
+
+.headergrid{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+.grid img{
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #00748D;
+
+}
+.bedroom1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.lamp1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.deco2{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.lamp2{
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+.livingroom1{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.deco1{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.kitchen1{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.kitchen2{
+    grid-column: 4/5;
+    grid-row: 4/6;
+}
+.kitchen3{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.bedroom2{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.deco3{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.office2{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+.livingroom4{
+    grid-column: 2/3;
+    grid-row: 5/7;
+}
+.livingroom2{
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.livingroom3{
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+.office1{
+    grid-column: 4/5;
+    grid-row: 6/7;
+}
+@media screen and (min-width:681px) and (max-width:990px) {
+    .affichage .container{
+        flex-direction: column;
+    }
+    .headergrid{
+        width: 100%;
+    }
+    .side{
+        display: flex;
+        width: 100%;
+    }
+    .temoin{
+        width: 40%;
+    } 
+    .tweet{
+        width: 60%;
+    }
+}
+
+
+
+@media  screen and (max-width:680px) {
+
+    .reseau .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 100px repeat(10, 0.5fr);
+    }
+    .bedroom1{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .lamp1{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .deco2{
+        grid-column: 1/2;
+        grid-row: 3/5;
+    }
+    .lamp2{
+        grid-column: 2/3;
+        grid-row: 4/6;
+    }
+    .livingroom1{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .deco1{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .kitchen1{
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .kitchen2{
+        grid-column: 2/3;
+        grid-row: 7/9;
+    }
+    .kitchen3{
+        grid-column: 2/3;
+        grid-row: 6/7;
+    }
+    .bedroom2{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .deco3{
+        grid-column: 1/2;
+        grid-row: 8/9;
+    }
+    .office2{
+        grid-column: 2/3;
+        grid-row: 10/11;
+    }
+    .livingroom4{
+        grid-column: 1/2;
+        grid-row: -4/-2;
+    }
+    .livingroom2{
+        grid-column: 2/3;
+        grid-row:9/10;
+    }
+    .livingroom3{
+        grid-column: 1/2;
+        grid-row: -2/-2;
+    }
+    .office1{
+        grid-column: -2/-1;
+        grid-row: 11/12;
+    }
+    .side{
+        width: 100%;
+    }
+}
