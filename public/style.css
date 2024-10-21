@@ -1,0 +1,183 @@
+.container{
+    width: 900px;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+}
+h3, h2, #contact{
+    width: 900px;
+    justify-content: center;
+
+}
+.container .texte{
+    flex-direction: column;
+}
+
+
+*{
+    margin: auto;
+    color: #333;
+    font-family: 'Lato', serif;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+.left{
+    border-top: 1px black solid;
+    padding-top: 1em;
+}
+header{
+    text-align: center;
+}
+.head{
+    background-color:#007eb3 ;
+    padding: 10px;
+}
+.head .onglet{
+    list-style: none;
+}
+.head ul li{
+    display: inline;
+    padding: 40px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: #007eb3;
+    font-size: 45px;
+    padding: 10px;
+    border-bottom: #007eb3 dashed 1px;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.esp, .envoie{
+    background-color: #007eb3;
+    border-color: transparent;
+    border-radius: 6px;
+    font-size: 1.5em;
+}
+.esp a, .envoie{
+    color: white;
+    text-decoration: none;
+}
+.floatg, .floatd{
+    max-width:49%;
+    height: auto;
+}
+.rouge{
+    color:#F00;
+}
+.ocre{
+    color:#CD8C56;
+}
+.gras{
+    font-weight: bold;
+}
+section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 25px;
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#voyage{
+    border-bottom: black solid 1px;
+    padding-bottom: 2em;
+    width: 900px;
+}
+#remise{
+    padding-bottom: 2em;
+}
+
+
+tr, th{
+    padding: 1em;
+    border: 1px solid grey;
+   
+    
+}
+tbody{
+    text-align: left;
+}
+table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 900px;
+}
+tbody>tr:nth-of-type(odd){
+    background-color:#D3D3D3;
+}
+#propos{
+    background-image: url("img/fond.jpg");
+    background-size: cover;
+    padding-top: 75px;
+    height: 55vh;
+
+}
+.blanc{
+    background-color: white;
+    box-sizing: content-box;
+    width: 25%;
+    margin-left:20%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+
+
+#contact svg{
+    max-height: 15px;
+}
+.contact2{
+    color: blue;
+    text-decoration: none;
+}
+.formulaire{
+    background-image: url("img/map-image.png");
+    background-color: #333;
+    background-size: cover;
+}
+.container .mess{
+    flex-direction: column;
+}
+textarea{
+    border-radius: 6px;
+    width: 300px;
+    height: 7em;
+}
+.mess input{
+    border-radius: 6px;
+    height: 2em;
+    width: 300px;
+}
+.envoie{
+        display: block;
+}
+#contact .reseau{
+    max-height: 25px;
+}
+footer{
+    text-align: center;
+    background-color: #007eb3;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+footer p, footer a{
+    color: white;
+}
+
