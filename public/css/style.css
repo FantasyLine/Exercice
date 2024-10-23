@@ -1,0 +1,198 @@
+*{
+    inline-size: 1.5;
+    margin: 0;
+    text-align: center;
+    font-family: 'Athiti';
+    font-weight: 500;
+    font-size: 18px;
+}
+header img{
+    max-width: 18%;
+    padding-bottom: 1em;
+}
+header{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    display: flex;
+    background-color: #ebe3db;
+    text-decoration: none;
+    color: black;
+    border-bottom: 0.5px black solid;
+    display: block;
+    padding: 0.5rem;
+    font-weight: bolder;
+}
+h1{
+    font-family: 'Merienda', 'Athiti';
+    font-size: 30px;
+    padding-bottom: 1em;
+}
+h2{
+    font-size: 25px;
+}
+h2, h3, h4{
+    font-family: 'Merienda', 'Athiti';
+    padding: 1em;
+}
+p{
+    padding-bottom: 1em;
+}
+main{
+    margin: 1em;
+}
+.rouge{
+    color:#950000;
+}
+.fond{
+    color: white;
+    background-color: #4c4343;
+}
+nav{
+    background-color: #ebe3db;
+    width: 100%;
+}
+
+footer .info{
+    background-image: url(../ressources/images/footer-bg.jpg);
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding-top: 2em;
+
+}
+footer .info p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+  border-bottom:1px dashed white ;
+  margin-bottom: 1em;
+  padding-bottom: 1em  
+}
+.imagecontainer:hover > img, .imagecontainer2:hover > img  {
+    filter: brightness(0.3);
+}
+.imagecontainer:hover .cover, .imagecontainer2:hover .cover{
+    opacity: 1;
+}
+section img{
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    content: ''; 
+}
+.imagecontainer, .imagecontainer2{
+    position: relative;
+}
+.cover{
+    position: absolute;
+    bottom:50%;
+    left: 50%;
+    transform:translate(-50%, 50%);
+    z-index: 2;
+    opacity: 0;
+    color:white;
+    border: 3px solid white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+button,.imagecontainer img, .imagecontainer .cover, .imagecontainer2 .cover {
+    transition: 0.5s ease;
+}
+.tel{
+    padding-top: 1em;
+}
+footer svg{
+    max-width: 30px;
+    fill: white;
+    margin: 1em;
+}
+footer p, footer a{
+    color: white;
+}
+footer .propriete{
+    background-color:  #444444;
+    padding: 3em;
+    text-align: center;
+}
+@media screen and (min-width:780px) {
+    nav{
+        display: flex;
+        justify-content: center;
+        gap: 8em;
+    }
+    header img{
+        padding-bottom: 1em;
+    }
+    nav a{
+        border-bottom: none;
+    }
+    footer .info{
+        display: flex;
+        justify-content: center;
+        gap: 7em;
+    }
+    footer .flexsvg{
+        display: flex;
+        height: 100px;
+    }
+}
+@media screen and (min-width:1100px){
+    *{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    header{
+        flex-direction: row;
+    }
+    nav{
+        display: flex;
+        text-align: right;
+        background-color: transparent;
+        width: 30%;
+        gap:1em;
+    }
+    header h1{
+        margin-left: 0;
+    }
+    header img{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    nav a{
+        border-bottom: none;
+        padding: 0.3em 1em;
+    }
+    footer .info{
+        display: flex;
+        justify-content: center;
+        gap: 7em;
+    }
+    .menus, .welcome{
+        display: flex;
+        gap: 2em;
+    }
+    button img{
+        margin: 0;
+
+    }
+    .welcome{
+        flex-direction: row-reverse;
+    }
+    .colonne{
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome img{
+        max-width: 30%;
+    }
+}

@@ -1,0 +1,43 @@
+
+.larger{
+    font-size: 38px;
+}
+.slider{
+    margin-bottom: 2em;
+}
+section p{
+    text-align: left;
+}
+section{
+    margin: 10px;
+}
+.menu{
+    background-color: #ebe3db;
+    padding: 0.5em 0em 1em 0em;
+    margin-bottom: 2em;    
+}
+.menu p{
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px dashed black;
+}
+.menu button{
+    display: flex;
+    height: 4em;
+    width: 80%;
+    background-color:#4c4343;
+    color: white;
+    margin-top: 1em;
+    box-shadow: 2px 2px 2px silver;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+button img{
+    height: 50%;
+
+}
+button:hover{
+    background-color: #950000;
+}
